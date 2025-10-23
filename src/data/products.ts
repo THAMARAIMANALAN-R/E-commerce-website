@@ -1,0 +1,68 @@
+import { Product } from '../types';
+
+export const products: Product[] = [
+  {
+    id: 1,
+    name: 'Classic Leather Watch',
+    price: 16499,
+    image: 'https://images.unsplash.com/photo-1687078426457-89ce2b562eaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3YXRjaCUyMHByb2R1Y3R8ZW58MXx8fHwxNzYxMjAyMjM2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Elegant timepiece with genuine leather strap and precision quartz movement. Perfect for both casual and formal occasions.',
+    category: 'Accessories',
+  },
+  {
+    id: 2,
+    name: 'Premium Sneakers',
+    price: 12499,
+    image: 'https://images.unsplash.com/photo-1554235676-64bb6cc8136a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHlsaXNoJTIwc25lYWtlcnMlMjBzaG9lc3xlbnwxfHx8fDE3NjEyMTQ2NDh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Comfortable and stylish sneakers designed for everyday wear. Features breathable materials and cushioned sole.',
+    category: 'Footwear',
+  },
+  {
+    id: 3,
+    name: 'Wireless Headphones',
+    price: 24999,
+    image: 'https://images.unsplash.com/photo-1471174569907-e911cbbd6d5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBoZWFkcGhvbmVzfGVufDF8fHx8MTc2MTE1MTY2M3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'High-quality wireless headphones with noise cancellation and premium sound quality. Battery life up to 30 hours.',
+    category: 'Electronics',
+  },
+  {
+    id: 4,
+    name: 'Designer Backpack',
+    price: 7499,
+    image: 'https://images.unsplash.com/photo-1582429073538-b43fa2eaf19e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkZXNpZ25lciUyMGJhY2twYWNrfGVufDF8fHx8MTc2MTE3NzgzMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Spacious and durable backpack with multiple compartments. Perfect for work, travel, or daily commute.',
+    category: 'Bags',
+  },
+  {
+    id: 5,
+    name: 'Polarized Sunglasses',
+    price: 10799,
+    image: 'https://images.unsplash.com/photo-1663585703603-9be01a72a62a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdW5nbGFzc2VzJTIwZmFzaGlvbnxlbnwxfHx8fDE3NjExODMzNTF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'UV protection sunglasses with polarized lenses. Stylish design suitable for any face shape.',
+    category: 'Accessories',
+  },
+  {
+    id: 6,
+    name: 'Leather Jacket',
+    price: 33299,
+    image: 'https://images.unsplash.com/photo-1521223890158-f9f7c3d5d504?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWF0aGVyJTIwamFja2V0fGVufDF8fHx8MTc2MTE4MzQ1MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Premium genuine leather jacket with classic design. Soft, comfortable, and ages beautifully.',
+    category: 'Clothing',
+  },
+  {
+    id: 7,
+    name: 'Smartphone Pro',
+    price: 74999,
+    image: 'https://images.unsplash.com/photo-1618558816330-43ae31b50c12?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzbWFydHBob25lJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NjEyMjY5OTd8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'Latest smartphone with advanced camera system, powerful processor, and all-day battery life.',
+    category: 'Electronics',
+  },
+  {
+    id: 8,
+    name: 'Professional Camera',
+    price: 108299,
+    image: 'https://images.unsplash.com/photo-1579535984712-92fffbbaa266?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYW1lcmElMjBwaG90b2dyYXBoeXxlbnwxfHx8fDE3NjExNDI0MjB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    description: 'High-resolution camera with interchangeable lenses. Ideal for professional photography and videography.',
+    category: 'Electronics',
+  },
+];
