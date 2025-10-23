@@ -50,8 +50,7 @@ export default defineConfig({
   },
 
   // ✅ Add this
-  base: './',
-
+  base: '/E-commerce-website/',
   build: {
     target: 'esnext',
     outDir: 'dist',
